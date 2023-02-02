@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import styles from './style.module.css'
 
 class Content extends React.Component {
 
@@ -17,7 +18,9 @@ class Content extends React.Component {
         con = <Home/>
     }
 
-    return con
+    return <div className={styles.content}>
+        {con}
+    </div>
    } 
 }
 
