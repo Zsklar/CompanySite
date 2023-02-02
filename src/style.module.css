@@ -1,6 +1,6 @@
 .navbar {
     height: 100%;
-    width: 10%;
+    width: 140px;
     position: fixed;
     background-color: gray;
     z-index: 1; /* Stay on top */
@@ -15,7 +15,7 @@
 }
 
 .content {
-    padding-left: 200px;
+    padding-left: 140px;
 }
 
 .button {
