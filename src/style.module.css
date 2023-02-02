@@ -1,3 +1,4 @@
+/*  NAVBAR */ 
 .navbar {
     height: 30px;
     width: 100%;
@@ -26,6 +27,51 @@
     margin-top: -10px;
 }
 
+.buttonList {
+    margin-left: 35%;
+}
+
 .button:hover {
     color: white;
+}
+
+
+/* HOME */
+
+.homeImg {
+    width: 75%;
+    height: 400px;
+    object-fit: fill;
+    margin-left: 5%;
+}
+.homeMission {
+    text-align: left;
+    margin-left: 10%;
+    float: left;
+    width: 40%;
+    border-left-style: solid;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.homeTitle {
+    float: left;
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+.homeMethod {
+    text-align: left;
+    margin-top: 35%;
+    margin-left: 5%;
+    width: 60%;
+    font-size: 25px;
+}
+
+.homeMethod2 {
+    text-align: right;
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 50%;
+    font-size: 25px;
 }

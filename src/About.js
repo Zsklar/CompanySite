@@ -1,8 +1,11 @@
 import React from 'react'
+//import styles from './style.module.css'
 
 class About extends React.Component{
  render(){
-    return <h1>This is the about page. Our Team</h1>
+    return <div>
+      <h1>About us page</h1>
+    </div>
  }
 }
 
