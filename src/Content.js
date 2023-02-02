@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import Team from './Team'
 import styles from './style.module.css'
 
 class Content extends React.Component {
@@ -14,7 +15,9 @@ class Content extends React.Component {
         con = <About/>
     } else if(this.props.page === 'contact'){
         con = <Contact/>
-    } else {
+    } else if(this.props.page === 'team'){
+        con = <Team/>
+    }else {
         con = <Home/>
     }
 
