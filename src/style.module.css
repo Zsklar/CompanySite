@@ -39,14 +39,14 @@
 /* HOME */
 
 .homeImg {
-    width: 75%;
+    width: 90%;
     height: 400px;
-    object-fit: fill;
-    margin-left: 5%;
+    object-fit: cover;
+    margin-left: 75px;
 }
 .homeMission {
     text-align: left;
-    margin-left: 10%;
+    margin-left: 150px;
     float: left;
     width: 40%;
     border-left-style: solid;
@@ -56,22 +56,22 @@
 
 .homeTitle {
     float: left;
-    margin-left: 5%;
+    margin-left: 20%;
     font-size: 40px;
 }
 
 .homeMethod {
     text-align: left;
-    margin-top: 35%;
-    margin-left: 5%;
-    width: 60%;
+    margin-top: 300px;
+    margin-left: 10%;
+    width: 50%;
     font-size: 25px;
 }
 
 .homeMethod2 {
     text-align: right;
-    margin-left: 30%;
-    margin-top: 5%;
+    margin-left: 40%;
+    margin-top: 50px;
     width: 50%;
     font-size: 25px;
 }
