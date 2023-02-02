@@ -16,11 +16,11 @@ class NavBar extends React.Component {
   render() {
     return <div>
               <div className={styles.navbar}>
-                <ul className={styles.ul}>
-                  <li><button onClick={() => {this.setState({page: "home"})}} className={styles.button}>Home</button></li>                 
-                  <li><button onClick={() => {this.setState({page: "about"})}} className={styles.button}>About Us</button></li>
-                  <li><button onClick={() => {this.setState({page: "contact"})}} className={styles.button}>Contacts</button></li>
-                </ul> 
+                
+                  <button onClick={() => {this.setState({page: "home"})}} className={styles.button}>Home</button>                 
+                  <button onClick={() => {this.setState({page: "about"})}} className={styles.button}>About Us</button>
+                  <button onClick={() => {this.setState({page: "contact"})}} className={styles.button}>Contacts</button>
+           
               </div>
               <Content page={this.state.page}/>
           </div>

@@ -1,6 +1,6 @@
 .navbar {
-    height: 100%;
-    width: 140px;
+    height: 30px;
+    width: 100%;
     position: fixed;
     background-color: gray;
     z-index: 1; /* Stay on top */
@@ -15,16 +15,15 @@
 }
 
 .content {
-    padding-left: 140px;
+    padding-top: 40px;
 }
 
 .button {
     font-size: 24px;
-    margin-bottom: 10px;
     border: none;
     background-color: gray;
-    padding-left: 0px;
-    margin-left: -20px;
+    color: black;
+    margin-top: -10px;
 }
 
 .button:hover {
