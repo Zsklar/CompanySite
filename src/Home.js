@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './style.module.css'
-import bannerImage from './images/banner.jpg';
+import banner from './Images/banner.jpg';
 
 class Home extends React.Component{
  render(){
    return <div>
-   <img className={styles.homeImg} src={bannerImage} alt="banner"></img>
+   <img className={styles.homeImg} src={banner} alt="banner"></img>
    <div className={styles.homeBlock}>
       <h1 className={styles.homeTitle}>At Ruatan Capital</h1>
       <h2 className={styles.homeMission}>We're building the best infrastructure for the new world of finance.  
