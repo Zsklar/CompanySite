@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
 import banner from './Images/banner.jpg';
+import logo from './Images/Logo-Color.png';
 
 class Home extends React.Component{
  render(){
@@ -11,6 +12,7 @@ class Home extends React.Component{
       <h2 className={styles.homeMission}>We're building the best infrastructure for the new world of finance.  
          We're striving to bring anyone with a viable business model to market.
       </h2>
+      <img className={styles.homeImg2} src={logo} alt="logo"></img>
    </div>
 
    <div className={styles.homeMethodSpan}>
