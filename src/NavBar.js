@@ -16,6 +16,7 @@ class NavBar extends React.Component {
   render() {
     return <div>
               <div className={styles.navbar}> 
+              <h2 className={styles.navTitle}>Ruatan Capital</h2>            
               <div className={styles.buttonList}>
                   <button onClick={() => {this.setState({page: "home"})}} className={styles.button}>Home</button>                 
                   <button onClick={() => {this.setState({page: "about"})}} className={styles.button}>About Us</button>
