@@ -4,11 +4,12 @@ import styles from './style.module.css'
 import banner from './Images/banner.jpg';
 import sky from './Images/Skyline.jpg';
 import ray from './Images/Ray.jpg';
+import Fade from '@successtar/react-reveal/Fade';
 
 class Home extends React.Component{
  render(){
    return <div>
-   {/* <Fade cascade> */}
+   <Fade cascade>
    <img className={styles.homeImg} src={banner} alt="banner"></img>
    <div className={styles.homeBlock}>
       {/* <Fade left> */}
@@ -39,7 +40,7 @@ class Home extends React.Component{
       <h3 className={styles.homeMethod2}>At Ruatan Capital, we're experts at navigating the world of early-stage product and business development, from providing 
       access to markets to building adequate teams to raising capital.</h3>
    </div>
-   {/* </Fade> */}
+   </Fade> 
    </div>
  }
 }
