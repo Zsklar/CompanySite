@@ -15,12 +15,12 @@
     overflow-x: hidden;
     padding-top: 20px;
     background-color: white;
-
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     border-width: 1px;
     overflow: hidden;
     box-shadow: 10px 0px 10px;
+    z-index: 10;
 }
 
 .navbarLogo{
@@ -34,9 +34,9 @@
 
 .navTitle {
     font-size: 40px;
-    font-family: Glook; /*ntr, days one, antic, fahkwang, galdeano */
+    font-family: Gloock; /*ntr, days one, antic, fahkwang, galdeano */
     margin-top: 15px;
-    margin-left: 0%;
+    margin-left: -1%;
     float: left;
 }
 .ul {
@@ -113,12 +113,25 @@
     margin-top: 30px;
 }
 
+ .homeMethodImg {
+    float: left;
+    object-fit: contain;
+    width: 32%;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: -200px;
+    margin-left: -300px;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px lightgray;
+    position: relative;
+    z-index: 1;
+}
 
 .homeMethodSpan {
     width: 75%;
     background-color: #fcf3f2;
     margin-bottom: 200px;
-    margin-top: -50px;
+    margin-top: 0px;
     margin-left: 25%;
     padding-bottom: 40px;
 }
@@ -130,9 +143,6 @@
     font-family: 'Playfair Display', serif;  
 }
 .homeMethodCon{
-    /* width: 62%;
-    margin-left: 4%;
-    margin-top: -20px; */
     margin-left: 10%;
     margin-right: 10%;
     margin-top: -20px;
@@ -141,11 +151,16 @@
     height: 2px; /* Set the height of the bar */
     background-color: #26d076;
 }
+.homeMethodCon2{
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: -20px;
+}
 .homeMethod {
     color: black;
     text-align: justify;
     margin-top: 50px;
-    margin-left: 4%;
+    margin-left: 6%;
     width: 60%;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
@@ -159,4 +174,61 @@
     width: 60%;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
+}
+
+/* ABOUT US */
+
+.aboutBlock{
+    background-color: #f2f4fc;
+    padding-bottom: 250px;
+    padding-top: 1%;
+    margin-top: 100px;
+}
+.aboutTitle{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color:#195de6;
+    margin-top: 30px;
+}
+
+.aboutBody{
+    text-align: left;
+    margin-left: 200px;
+    float: left;
+    width: 65%;
+    font-size: 29px;
+    font-family: 'Playfair Display', serif;
+}
+
+.aboutTitle2{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color:#195de6;
+    margin-top: 300px;
+}
+
+.aboutTitle3{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color:#2f62c9;
+    margin-top: 50px;
+    margin-left: 10%
+}
+.aboutTitle4{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color:#2f62c9;
+    margin-top: 300px;
+    margin-left: 10%
+}
+.aboutTitle5{
+    margin-left: 3%;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color:#195de6;
+    margin-top: 300px;
 }
