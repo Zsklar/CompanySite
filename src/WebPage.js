@@ -10,7 +10,7 @@ class WebPage extends React.Component {
       </BrowserView>
       <MobileView>
       <NavBar/>
-        {/* <h1>YOU ARE ON MOBILE</h1> */}
+        <h1>YOU ARE ON MOBILE</h1>
       </MobileView>
     </div>
   }
