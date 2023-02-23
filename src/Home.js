@@ -1,9 +1,9 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade';
-
+// import Fade from 'react-reveal/Fade';
 import styles from './style.module.css'
 import banner from './Images/banner.jpg';
 import sky from './Images/Skyline.jpg';
+const Fade = require("react-reveal/Fade")
 
 class Home extends React.Component{
  render(){
