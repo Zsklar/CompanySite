@@ -23,7 +23,7 @@ class Team extends React.Component{
       
       <h3 className={styles.teamBio2}>After getting a degree in Computer Science and Economics from the University of Maryland, Zach left the tech world to go into finance working at Lazard. At that time, Zach's then-roommate, Ilan, had some interesting trading ideas and no ability to build out infrastructure. Zach quickly set up node infrastructure, set up AWS-hosted testing, and built critical blockchain infrastructure. After proving to be particularly adept at analyzing potential investments, he joined the Venture team.</h3>
       <div className={styles.profContainerRight}>
-         <img className={styles.teamImg} src={ZachHeadshot} alt="Zach"></img>
+         <img className={styles.teamImg2} src={ZachHeadshot} alt="Zach"></img>
          <h3 className={styles.teamBody}>Zach Sklar</h3>
          <h3 className={styles.teamPosition}>CTO, Venture Capital lead</h3>
       </div>
