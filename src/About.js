@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './style.module.css'
+import Fade from '@successtar/react-reveal/Fade';
 
 class About extends React.Component{
  render(){
-    return <div className={styles.aboutBlock}>
+    return <div><Fade cascade><div className={styles.aboutBlock}>
       <h2 className={styles.aboutTitle}> Our Philosophy</h2>
       <div className={styles.homeMethodCon2}>
          <div className={styles.homeMethodBar}></div>
@@ -32,6 +33,8 @@ class About extends React.Component{
       <h3 className={styles.aboutBody}>Our Venture team are experts in early-stage web3 startups. We use our network and expertise to help founders build teams, make important design decisions, market their products,
           and connect to investors. We also offer entrepreneurs access to our in-house tech team to help them quickly break through roadblocks that require specialized expertise.
       </h3>
+    </div>
+    </Fade>
     </div>
  }
 }
