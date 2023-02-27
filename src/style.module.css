@@ -232,3 +232,84 @@
     color:#195de6;
     margin-top: 300px;
 }
+
+/* Team Block */
+.teamMethodBar{
+    height: 2px; /* Set the height of the bar */
+    background-color: #26d076;
+    margin-bottom: 75px;
+} 
+.teamBlock{
+    background-color: #f2f4fc;
+    padding-bottom: 250px;
+    padding-top: 1%;
+    margin-top: 100px;
+}
+
+
+.teamTitle{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color:#195de6;
+    margin-top: 30px;
+}
+
+.teamMethodCon2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -20px;
+}
+
+.teamBody{
+    /* text-align: center; */
+    font-size: 35px;
+    margin-left: 18%;
+    font-family: 'Playfair Display', serif;
+    clear: left;
+}
+
+.teamImg {
+    width: 22%;
+    height: 50%;
+    object-fit: contain;
+    /* margin-top: 75px; */
+    margin-left: 10%;
+    float: left;
+    /* max-width: 300px; */
+    /* margin-right: 100px; */
+}
+
+.teamBio{
+    font-size: 30px;
+    margin-left: 45%;
+    font-family: 'Playfair Display', serif;
+}
+
+.teamImg2{
+    width: 22%;
+    height: 50%;
+    object-fit: contain;
+    margin-top: 75px; 
+    margin-right: 10%;
+    float: right;
+    /* max-width: 300px; */
+    /* margin-right: 100px; */
+}
+
+.teamBio2{
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: 75px;
+    font-family: 'Playfair Display', serif;
+    float: left;
+}
+
+.teamBody2{
+    font-size: 35px;
+    margin-right: 15%;
+    font-family: 'Playfair Display', serif;
+    clear: right;
+    text-align: right;
+    margin-bottom: 75px;
+}
