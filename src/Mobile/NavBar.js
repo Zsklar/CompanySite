@@ -3,6 +3,10 @@ import Content from './Content'
 import styles from './style.module.css'
 import logo from '../Images/Logo-Color-Textless.png';
 import Sidebar from 'react-sidebar';
+// import three-menuIcon from '../Images/three-line-menu-icon.png';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 class NavBar extends Component {
   constructor(props) {
@@ -36,11 +40,17 @@ class NavBar extends Component {
         }
         open={this.state.sidebarOpen}
         onSetOpen={this.onSetSidebarOpen}
-        styles={{ sidebar: { background: 'white', width: '100%', zIndex: 2 } }}
+        styles={{ sidebar: { background: 'white', width: '100%', zIndex: 1000 } }}
       >
-        <button onClick={() => this.onSetSidebarOpen(true)}>Toggle Sidebar</button>
+        <div className={styles.main}>
+          <button style={{background: "none", border:"none"}} onClick={() => this.onSetSidebarOpen(true)}><FontAwesomeIcon icon={faBars} style={{color: "blue",position: "fixed", zIndex: 9, height: "25px", right: 0, marginRight: "10px"}}/></button>
+          <img className={styles.navLogo} src={logo} alt="logo"></img>
+          <h3 className={styles.navTitle}>Ruatan Capital</h3>
+        </div>
          <Content page={this.state.page}/>
+         
       </Sidebar>
+      
     );
   }
 }

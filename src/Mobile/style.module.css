@@ -3,37 +3,56 @@
     Blue: #195de6
     Green: #26d076
 */
+.main{
+    background-color: #f2f4fc;
+    height: 50px;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    box-shadow: 5px 2px 20px black;   
+}
+
+.navLogo{
+    float: left;
+    height: 80px;
+    margin-top: -9px;
+    margin-left: -5%;
+}
 
 .navbarLogo{
     height: 155px;
     float: left;
     margin-top: -27px;
-    margin-left: 0;
-    margin-right: -40px;
+    margin-left: -5%;
+    /* margin-right: -40px; */
     object-fit: contain;
 }
 
 .navTitle {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Gloock; /*ntr, days one, antic, fahkwang, galdeano */
-    margin-top: 15px;
-    margin-left: -1%;
+    margin-top: 8px;
+    margin-left: -5%;
     float: left;
 }
 .ul {
     list-style: none
 }
-
+/* 
 .content {
-    padding-top: 40px;
-}
+    padding-top: 0px;
+} */
 
 .button {
-    font-size: 100px;
+    font-size: 50px;
     border: none;
     background-color: white;
     color: black;
     margin-right: 40px;
+    font-family: 'Playfair Display', serif;
+    /* border-top: 2px solid black; */
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
 }
 
 .buttonList {
@@ -52,42 +71,40 @@
 
 .homeBlock{
     background-color: #f2f4fc;
-    padding-bottom: 250px;
-    padding-top: 1%;
+    /* padding-bottom: 250px; */
+    overflow-x: hidden;
 }
 
 .homeImg {
-    width: 90%;
-    height: 400px;
-    object-fit: cover;
-    margin-left: 75px;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    /* Have the sidebar toggle under picture, move image to the top of the screen */
+    margin-top: 50px;
+    width: 100%;
 }
 
 .homeImg2{
-    float: right;
-    object-fit: contain;
-    width: 35%;
-    max-width: 700px;
-    min-width: 500px;
-    margin-top: -60px;
-    margin-right: 50px;
+    /* Center This in the middle of screen */
+    /* object-fit: contain; */
+    width: 90%;
+    margin-left: 5%;
+    /* margin-top: -60px; */
+    /* margin-right: 50px; */
     box-shadow: 10px 10px 5px lightgray;
 }
 
 .homeMission {
     text-align: left;
-    margin-left: 100px;
-    float: left;
-    width: 45%;
+    /* Align text in center of screen */
+    margin-left: 5%;
+    /* float:none; */
+    width: 90%;
     font-size: 29px;
     font-family: 'Playfair Display', serif;
 }
 
 .homeTitle {
-    margin-left: 3%;
-    margin-top: 75px;
+    /* Center this also */
+    /* margin-left: 7%; */
+    text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color:#195de6;
@@ -95,37 +112,30 @@
 }
 
  .homeMethodImg {
-    float: left;
-    object-fit: contain;
-    width: 32%;
-    max-width: 500px;
-    min-width: 300px;
-    margin-top: -200px;
-    margin-left: -300px;
-    margin-right: 10px;
+    width: 90%;
+    margin-left: 5%;
     box-shadow: 10px 10px 5px lightgray;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
 
 .homeMethodSpan {
-    width: 75%;
+    width: 100%;
     background-color: #fcf3f2;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     margin-top: 0px;
-    margin-left: 25%;
-    padding-bottom: 40px;
+    /* margin-left: 25%; */
 }
 .homeMethodTitle {
     color: #195de6;
     text-align: center;
-    margin-top: 350px;
+    margin-top: 100px;
     font-size: 40px;
     font-family: 'Playfair Display', serif;  
 }
 .homeMethodCon{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: -20px;
 }
 .homeMethodBar{
@@ -133,26 +143,28 @@
     background-color: #26d076;
 }
 .homeMethodCon2{
-    margin-left: 3%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: -20px;
 }
 .homeMethod {
+    /* CENTER!!! */
     color: black;
-    text-align: justify;
+    text-align: left;
     margin-top: 50px;
-    margin-left: 6%;
-    width: 60%;
+    width: 90%;
+    margin-left: 5%;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
 }
 
 .homeMethod2 {
+    /* Center this */
     color: black;
-    text-align: justify;
-    margin-left: 35%;
+    text-align: left;
     margin-top: 50px;
-    width: 60%;
+    width: 90%;
+    margin-left: 5%;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
 }
@@ -161,12 +173,13 @@
 
 .aboutBlock{
     background-color: #f2f4fc;
-    padding-bottom: 250px;
-    padding-top: 1%;
-    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    /* margin-top: 50px; */
 }
 .aboutTitle{
-    margin-left: 3%;
+    /* margin-left: 3%; */
+    text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color:#195de6;
@@ -174,44 +187,58 @@
 }
 
 .aboutBody{
-    text-align: left;
-    margin-left: 200px;
-    float: left;
-    width: 65%;
+    /* Center, center, center */
+    text-align:left;
+    word-spacing: 5px;
+    text-justify: distribute;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 29px;
+    font-family: 'Playfair Display', serif;
+}
+
+.aboutBody2{
+    /* Center, center, center */
+    text-align:left;
+    word-spacing: 5px;
+    text-justify: distribute;
+    width: 85%;
+    margin-left: 7.5%;
     font-size: 29px;
     font-family: 'Playfair Display', serif;
 }
 
 .aboutTitle2{
-    margin-left: 3%;
+    /* center... */
+    /* margin-left: 3%; */
     font-family: 'Playfair Display', serif;
     font-size: 40px;
+    text-align: center;
     color:#195de6;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 
 .aboutTitle3{
-    margin-left: 3%;
+    /* Center! */
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color:#2f62c9;
     margin-top: 50px;
-    margin-left: 10%
+    margin-left: 3%
 }
 .aboutTitle4{
-    margin-left: 3%;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     color:#2f62c9;
-    margin-top: 300px;
-    margin-left: 10%
+    margin-top: 100px;
+    margin-left: 3%;
 }
 .aboutTitle5{
-    margin-left: 3%;
+    text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     color:#195de6;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 /* Team Block */
@@ -223,8 +250,8 @@
 .teamBlock{
     background-color: #f2f4fc;
     padding-bottom: 50px;
-    padding-top: 1%;
-    margin-top: 100px;
+    padding-top: 40px;
+    overflow-x: hidden;
 }
 
 
@@ -251,88 +278,21 @@
     clear: left;
 }
 
-.profContainerLeft {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    align-items: flex-start;
-
-    margin-left: 10%;
-    margin-right: 3%;
-}
-
-.profContainerRight {
-    float: right;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    align-items: flex-start;
-
-    margin-right: 10%;
-    margin-left: 3%;
-}
-
-.teamProf {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 100px;
-}
-
 
 .teamImg {
     align-content: center;
-    width: 100%;
-    /* height: 100%; */
-    object-fit: contain;
-    /* margin-top: 75px; */
-    /* margin-left: 10%; */
-    /* float: left; */
-    /* max-width: 12000px; */
-    min-width: 155px;
-    /* margin-right: 100px; */
+    margin-left: 5%;
+    width: 90%;
+    /* object-fit: contain; */
 }
 
 .teamBio{
     font-size: 25px;
-    width: 400%;
-    /* margin-left: 10%; */
+    width: 90%;
+    margin-left: 5%;
     font-family: 'Playfair Display', serif;
-    text-align: justify;
-    padding-right: 130px;
+    text-align: left;
     margin-block-start: 0;
-}
-
-.teamImg2{
-    align-content: center;
-    width: 100%;
-    /* height: 100%; */
-    object-fit: contain;
-    /* margin-top: 75px; */
-    /* margin-left: 10%; */
-    /* float: left; */
-    /* max-width: 12000px; */
-    min-width: 155px;
-    /* margin-right: 100px; */
-}
-
-.teamBio2{
-    font-size: 25px;
-    width: 400%;
-    /* margin-right: 10%; */
-    font-family: 'Playfair Display', serif;
-    text-align: justify;
-    padding-left: 130px;
-    margin-block-start: 0;
-}
-
-.teamBody2{
-    font-size: 35px;
-    margin-right: 15%;
-    font-family: 'Playfair Display', serif;
-    clear: right;
-    text-align: right;
-    margin-bottom: 75px;
 }
 
 .teamPosition{
@@ -343,33 +303,4 @@
     margin-bottom: 20px;
     text-align: center;
     width: 100%;
-}
-
-.teamPosition2{
-    font-size: 20px;
-    margin-right: 15%;
-    font-family: 'Playfair Display', serif;
-    clear: right;
-    text-align: right;
-    margin-top: -70px;
-    margin-right: 190px;
-    margin-bottom: 75px;
-}
-
-.teamPosition3{
-    font-size: 20px;
-    margin-left: 14%;
-    font-family: 'Playfair Display', serif;
-    clear: left;
-    margin-top: -25px;
-    margin-bottom: 20px;
-
-}
-
-.teamBody3{
-    /* text-align: center; */
-    font-size: 35px;
-    margin-left: 16.5%;
-    font-family: 'Playfair Display', serif;
-    clear: left;
 }

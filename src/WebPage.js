@@ -7,7 +7,7 @@ class WebPage extends React.Component {
   render() {
     return <div>
       <BrowserView>
-        <NavBarMobile/>
+        <NavBar/>
       </BrowserView>
 
       <MobileView>
