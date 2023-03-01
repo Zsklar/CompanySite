@@ -316,3 +316,24 @@
 .careerListing{
     border-bottom: 2px solid black;
 }
+
+.linkedInIcon{
+    width: 8%;
+    margin-right: 5px;
+}
+
+.telegramIcon{
+    width: 18%;
+    margin-right: 5px;
+    margin-bottom: -5px;
+}
+
+.emailIcon{
+    width: 8%;
+    margin-right: 5px;
+}
+
+.contactBlock{
+    align-items: center;
+    margin-left: 40%;
+}
