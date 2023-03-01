@@ -18,8 +18,8 @@ class Home extends React.Component{
       <div className={styles.homeMethodCon2}>
          <div className={styles.homeMethodBar}></div>
       </div>
-         <h2 className={styles.homeMission}>We're building the best infrastructure for the new world of finance.  
-            We're striving to bring anyone with a viable business model to market.
+         <h2 className={styles.homeMission}>We've built the best infrastructure for the new world of finance.  
+            We're bringing anyone with a viable business model to market.
          </h2>
       {/* <Fade right> */}
          <img className={styles.homeImg2} src={sky} alt="logo"></img>
@@ -38,7 +38,7 @@ class Home extends React.Component{
       technology needs, lack of access to financing, regulatory blocks from accessing certain markets, and many others. 
       </h3>
       <h3 className={styles.homeMethod2}>At Ruatan Capital, we're experts at navigating the world of early-stage product and business development, from providing 
-      access to markets to building adequate teams to raising capital.</h3>
+      access to markets to building the best teams to raising capital.</h3>
       <img className={styles.homeMethodImg} src={ray} alt="ray"></img>
    </div>
    {/* </Fade>  */}

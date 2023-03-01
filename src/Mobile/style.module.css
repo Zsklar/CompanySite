@@ -304,3 +304,15 @@
     text-align: center;
     width: 100%;
 }
+
+/* Careers Block */
+
+.careersBlock{
+    margin-top: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.careerListing{
+    border-bottom: 2px solid black;
+}

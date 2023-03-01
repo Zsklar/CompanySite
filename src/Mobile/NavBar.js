@@ -35,6 +35,8 @@ class NavBar extends Component {
             <button onClick={() => {this.setState({page: "home", sidebarOpen: false})}} className={styles.button}>Home</button>
             <button onClick={() => {this.setState({page: "about", sidebarOpen: false})}} className={styles.button}>About us</button>
             <button onClick={() => {this.setState({page: "team", sidebarOpen: false})}} className={styles.button}>Our Team</button>
+            <button onClick={() => {this.setState({page: "contact", sidebarOpen: false})}} className={styles.button}>Careers</button>
+
             </div>
           </div>
         }

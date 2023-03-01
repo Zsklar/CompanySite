@@ -3,7 +3,8 @@ import styles from './style.module.css'
 import IlanHeadshot from '../Images/IlanHeadshot.jpg';
 import ZachHeadshot from '../Images/ZachHeadshot.jpg';
 import RayHeadshot from '../Images/RayHeadshot.jpg';
-import Fade from '@successtar/react-reveal/Fade';
+// import linkedIn from '../Images/linkedIn.png';
+// import Fade from '@successtar/react-reveal/Fade';
 
 class Team extends React.Component{
  render(){
@@ -20,8 +21,13 @@ class Team extends React.Component{
       
          <h3 className={styles.teamBody}>Ilan Katz</h3>
          <h3 className={styles.teamPosition}>Head of Systematic Trading, Venture Capital </h3>
+         {/* <div>
+            <a href="https://www.linkedin.com/in/ilan-katz-66234b135/" target="_blank" rel="noopener noreferrer">
+               <img src={linkedIn} alt="LinkedIn Profile" />
+            </a>
+         </div> */}
       </div>
-      <h3 className={styles.teamBio}>Ilan started in the web3 space as an analyst and data scientist at Radkl. There, he discovered two things: the first, that there was a ton of space for new crypto traders, and the second, that he had no skills in directional investing. With those lessons in mind, he started developing automated trading bots, starting from simple arbitrages and getting more sophisticated over time. Those bots became the basis for Ruatan Capital. Since then, Ilan has focused more on raising money and the new Venture side of Ruatan Capital. Ilan has a degree in Economics from the University of Maryland.</h3>
+      <h3 className={styles.teamBio}>Ilan started in the web3 space as an analyst and data scientist at Radkl. There, he discovered that there was a ton of space for new market makers in crypto. With that in mind, he started developing automated trading bots, starting from simple arbitrages and getting more sophisticated over time. Those bots became the basis for Ruatan Capital. Since then, Ilan has focused more on deploying money and the new Venture side of Ruatan Capital. Ilan has a degree in Economics from the University of Maryland.</h3>
    </div>
    <div>
       
