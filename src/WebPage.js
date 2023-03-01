@@ -1,16 +1,17 @@
 import React from 'react';
 import NavBar from './Desktop/NavBar';
+import NavBarMobile from './Mobile/NavBar'
 import {BrowserView, MobileView} from 'react-device-detect';
 
 class WebPage extends React.Component {
   render() {
     return <div>
       <BrowserView>
-        <NavBar/>
+        <NavBarMobile/>
       </BrowserView>
 
       <MobileView>
-        <h1>YOU ARE ON MOBILE</h1>
+        <NavBarMobile/>
       </MobileView>
     </div>
   }
