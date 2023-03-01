@@ -1,9 +1,9 @@
 import React from 'react'
 //import Fade from 'react-reveal/Fade';
 import styles from './style.module.css'
-import banner from './Images/banner.jpg';
-import sky from './Images/Skyline.jpg';
-import ray from './Images/Ray.jpg';
+import banner from '../Images/banner.jpg';
+import sky from '../Images/Skyline.jpg';
+import ray from '../Images/Ray.jpg';
 import Fade from '@successtar/react-reveal/Fade';
 
 class Home extends React.Component{

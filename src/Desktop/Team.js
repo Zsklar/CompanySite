@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './style.module.css'
-import IlanHeadshot from './Images/IlanHeadshot.jpg';
-import ZachHeadshot from './Images/ZachHeadshot.jpg';
-import RayHeadshot from './Images/RayHeadshot.jpg';
+import IlanHeadshot from '../Images/IlanHeadshot.jpg';
+import ZachHeadshot from '../Images/ZachHeadshot.jpg';
+import RayHeadshot from '../Images/RayHeadshot.jpg';
 import Fade from '@successtar/react-reveal/Fade';
 
 class Team extends React.Component{
@@ -24,7 +24,7 @@ class Team extends React.Component{
    </div>
    <div className={styles.teamProf}>
       
-      <h3 className={styles.teamBio2}>After getting a degree in Computer Science and Economics from the University of Maryland, Zach left the tech world to go into finance working at Lazard. At that time, Zach's then-roommate, Ilan, had some interesting trading ideas and no ability to build out infrastructure. Zach quickly set up node infrastructure, set up AWS-hosted testing, and built critical blockchain infrastructure. After proving to be particularly adept at analyzing potential investments, he joined the Venture team.</h3>
+      <h3 className={styles.teamBio2}>After getting a degree in Computer Science and Economics from the University of Maryland, Zach left the tech world to go into finance. At that time, Zach's then-roommate, Ilan, had some interesting trading ideas and no ability to build out infrastructure. Zach quickly set up node infrastructure, set up AWS-hosted testing, and built critical blockchain infrastructure. After proving to be particularly adept at analyzing potential investments, he joined the Venture team.</h3>
       <div className={styles.profContainerRight}>
          <Fade right>
          <img className={styles.teamImg2} src={ZachHeadshot} alt="Zach"></img>
