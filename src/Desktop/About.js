@@ -10,7 +10,7 @@ class About extends React.Component{
          <div className={styles.homeMethodBar}></div>
       </div>
       <h3 className={styles.aboutBody}>
-         At Ruatan Capital, we look to increase access to markets for retail and institutional investors by providing better prices, more liquidity, and the tools necessary to compete in the open market.
+         At Ruatan Capital, we increase access to markets for retail and institutional investors by providing better prices, more liquidity, and the tools necessary to compete in the open market.
       </h3>
       <h2 className={styles.aboutTitle2}>Ruatan Liquid</h2>
       <div className={styles.homeMethodCon2}>

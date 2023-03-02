@@ -18,8 +18,8 @@ class Home extends React.Component{
       <div className={styles.homeMethodCon2}>
          <div className={styles.homeMethodBar}></div>
       </div>
-         <h2 className={styles.homeMission}>We're building the best infrastructure for the new world of finance.  
-            We're striving to bring anyone with a viable business model to market.
+         <h2 className={styles.homeMission}>We've built the best infrastructure for the new world of finance.  
+            We're bringing anyone with a viable business model to market.
          </h2>
       <Fade right>
          <img className={styles.homeImg2} src={sky} alt="logo"></img>
